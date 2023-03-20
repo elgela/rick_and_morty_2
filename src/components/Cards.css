@@ -1,0 +1,11 @@
+.cards_container{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.cards{
+    background-color:blanchedalmond;
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
