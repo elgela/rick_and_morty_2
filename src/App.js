@@ -1,4 +1,5 @@
 import './App.css';
+// import Card from './components/Card.jsx';
 import Cards from './components/Cards.jsx';
 import Nav from './components/Nav';
 import characters from './data.js';

@@ -1,8 +1,10 @@
-export default function SearchBar(props) {
+import './SearchBar.css'
+
+export default function SearchBar({onSearch}) {
    return (
       <div>
-         <input type='search' class='bot' />
-         <button onClick={props.onSearch}>Agregar</button>
+         <input type='search' className='search'/>
+         <button onClick={() => onSearch('Not found id')}>Agregar</button>
       </div>
    );
 }
