@@ -4,7 +4,7 @@ import './Nav.css'
 
 export default function Nav() {
   return (
-    <div class='barra'>
+    <div class='navBar'>
         <SearchBar />
     </div>
   )

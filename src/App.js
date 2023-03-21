@@ -8,8 +8,7 @@ function App() {
    return (
       <div className='App'>
          <Nav />
-         <Cards characters={characters} />
-        
+         <Cards characters={characters} />       
       </div>
    );
 }
