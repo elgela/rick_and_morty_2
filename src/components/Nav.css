@@ -1,0 +1,7 @@
+.barra {
+    display: flex;
+    justify-content: end;  
+    flex-direction:row;
+    background-color:rgb(111, 112, 112)
+}
+
