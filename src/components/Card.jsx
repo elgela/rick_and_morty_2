@@ -3,7 +3,7 @@ import './Card.css'
 export default function Card({id, name, status, species, gender, origin, image, onClose}) {
    return (
       <div>
-         <button onClick={onClose}>X</button>
+         <button onClick={onClose} className='bot'>X</button>
          <h2>{id}</h2>
          <h2>{name}</h2>
          {/* <h2>{status}</h2> */}
