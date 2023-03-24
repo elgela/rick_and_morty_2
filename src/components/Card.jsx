@@ -3,10 +3,10 @@ import './Card.css'
 export default function Card({
    id, 
    name, 
-   // status, 
+   status, 
    species, 
    gender, 
-   // origin, 
+   origin, 
    image, 
    onClose}) {
    return (
