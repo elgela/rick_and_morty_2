@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() {
    const state = useState([]);
-   console.log(useState);
+   // console.log(useState);
    return (
       <div className='App'>
          <Nav />
@@ -15,8 +15,13 @@ function App() {
    );
 }
 
- function onSerch() {
-   
-}
+ function onSearch() {
+   const example = {
+      name: 'Morty Smith',
+      species: 'Human',
+      gender: 'Male',
+      image: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg',
+   };
+ }
 
 export default App;

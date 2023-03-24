@@ -12,7 +12,7 @@ export default function Card({
    return (
       <div className='text'>
          <button onClick={onClose} className='bot'>X</button>
-         <h2>{id}</h2>
+          <h2>{id}</h2>
          <h2>{name}</h2>
          {/* <h2>{status}</h2> */}
          <h2>{species}</h2>

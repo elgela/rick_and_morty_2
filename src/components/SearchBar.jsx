@@ -1,5 +1,6 @@
 import './SearchBar.css'
 
+
 export default function SearchBar({onSearch}) {
    return (
       <div>
